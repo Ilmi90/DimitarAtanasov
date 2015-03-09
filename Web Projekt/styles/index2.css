@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helevtica, sans-serif;
+
+}
+header {
+	width: 100%;
+	height: 50px;
+	background: #16a085;
+}
+.header-wrapper {
+	width: 960px;
+	height: 50px;
+	margin: 0px auto;
+}
+h1.logo {
+	width: 134px;
+	height: 26px;
+	background: url(../images/logo.png) no-repeat;
+	float: left;
+	padding: 0;
+	margin: 10px 0 0 0;
+
+}
+nav {
+	width: 600px;
+	height: 50px;
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+	height: 35px;
+	margin: 0px 10px 0px 0px;
+	padding: 15px 0px 0px 0px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+nav ul li a {
+	height: 35px;
+	padding: 15px 0px 0px 0px;
+	text-decoration: none;
+	color: #fff;
+}
+.main-slider {
+	width: 100%;
+	height: 550px;
+	background: #354556;
+}
+.middle-content {
+	width: 960px;
+	height: 370px;
+	margin: 0px auto;
+}
+.middle-content ul {
+	width: 960px;
+	height: 370px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: green;
+}
+.middle-content ul li {
+	width: 300px;
+	height: 290px;
+	float: left;
+	background: red;
+	margin: 0px 30px 0px 0px;
+	padding: 80px 0px 0px 0px;
+}
+.middle-content ul li:nth-child(3) {
+	margin: 0;
+	width: 300px;
+}
+.middle-content h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 300px;
+}
+.middle-content p {
+	width: 240px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0px 30px;
+}
+.button {
+	display: block;
+	width: 120px;
+	height: 27px;
+	border: 1px solid #16a085;
+	border-radius: 3px;
+	margin: 50px 90px 0px 90px;
+	padding: 8px 0px 0px 0px;
+	text-align: center;
+
+}
+
